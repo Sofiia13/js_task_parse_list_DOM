@@ -21,7 +21,7 @@ function sortList(listItems) {
 }
 
 function getEmployees(listItems) {
-  const sortedItems = sortList(listElements);
+  const sortedItems = sortList(listItems);
 
   list.innerHTML = '';
 
